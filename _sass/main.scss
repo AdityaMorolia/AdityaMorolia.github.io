@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import "variables",
+        "404",
+        "autumn",
+        "blog",
+        "footer",
+        "landing",
+        "navbar",
+        "projects",
+        "timeline";
+
+
+// Set root font size for responsive scaling
+:root {
+  font-size: 16px; // Default for mobile
+
+  @media (min-width: 1200px) {
+    font-size: 24px; // Larger screens
+  }
+  @media (max-width: 1199px) {
+    font-size: 20px; // Medium screens
+  }
+}
+
+/* Default link color */
+a {
+    color: #004088;
+    text-decoration: none; /* Optional: removes underline */
+  }
+  
+/* Link color on hover */
+a:hover {
+  color: #004088; 
+  text-decoration: none; /* Optional: removes underline */
+}
+
+body {
+    font-family: 'Segoe UI Emoji', 'Segoe UI Symbol', 'Segoe UI',  Roboto, 'Helvetica Neue', Arial, sans-serif;
+  }
+
+.container {
+  // font-size: 16px; // Default for mobile
+
+  @media (min-width: 1200px) { // Larger screens
+    max-width: 75%;
+    // font-size: 24px;
+  }
+  @media (max-width: 1199px) {
+    max-width: 90%;  // More width on medium screens
+    // font-size: 20px;
+  }
+  @media (max-width: 768px) {
+    max-width: 95%;  // Almost full width on mobile
+    // font-size: 14px;
+  }
+}
+
+.content-with-image {
+  margin-bottom: 2rem;
+  overflow: auto;
+}
+
+.profile-figure {
+  width: 300px;
+  max-width: 100%;
+  float: left;
+  margin: 0 2rem 1rem 0;
+}
+
+.profile-image {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+}
+
+.profile-caption {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: #666;
+  text-align: center;
+}
+
+/* Mobile layout */
+@media (max-width: 767px) {
+  .profile-figure {
+    max-width: 100%;
+    float: none;
+    margin-right: 0;
+    margin-bottom: 1.5rem;
+  }
+}

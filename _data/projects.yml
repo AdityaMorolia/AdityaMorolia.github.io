@@ -1,0 +1,59 @@
+- name: Watermarking Latent Representations via CLWE
+  tools: [Python, Pytorch, Deep Learning, Stable Diffusion, Lattice Cryptography]
+  description: This project is a proof of concept for watermarking arbitrary input images using their latent representations. The security of the watermarking scheme is based on the security of worst case lattice problems, particularly through the Continuous Learning With Errors problem.
+  external_url: https://github.com/deep-watermarking/clwemark
+  
+- name: AICrowd Classrooms
+  tools: [Django, Python, HTML, CSS, YAML]
+  description: Developed this for the users to create new challenges on aicrowd.com
+  external_url: https://classroom.aicrowd.com/
+
+- name: Portfolio Website
+  tools: [HTML, CSS, Jekyll, Markdown, YAML]
+  description: This is a portfolio website with Latex support ideal for people into both theory (research) and coding or development. Check README for details.
+  external_url: https://github.com/AdityaMorolia/AdityaMorolia.github.io
+  image: /assets/images/projects/portfolio.png
+
+- name: Distributed MapReduce
+  tools: [C++, Boost, MPI]
+  description: C++ implementation of the MapReduce library to handle MapReduce tasks on a distributed system. This library handles worker failures and performs load balancing.
+  external_url: https://github.com/AdityaMorolia/MapReduce
+  image: /assets/images/projects/mapreduce.jpg
+
+- name: COVID-19 Vaccination Management
+  tools: [Django, Python, HTML, CSS, JavaScript]
+  description: Wrote a Django WebApp to manage the complete vaccination pipeline. Includes an algorithm to automatically distribute vaccines to states and districts on the basis of Population, number of vaccination centres and rate of change of number of active cases.
+  external_url: https://github.com/AdityaMorolia/COVID-19-vaccination-management
+  image: /assets/images/projects/vaccination.jpeg
+
+- name: Face classification and Verification
+  tools: [Sklearn, Machine learning]
+  description: Comparing various methods for face classification and verification on different datasets.
+  image: /assets/images/projects/face.png
+  external_url: https://github.com/AdityaMorolia/face_classification_verification
+
+- name: Shell in C
+  tools: [C, Shell, Linux]
+  image: /assets/images/projects/shell.png
+  description: Developed a terminal based shell using C that supports piping, I/O redirection, signal handline, background and foreground process management, etc.
+  external_url: https://github.com/AdityaMorolia/C-Shell
+
+- name: Mario in python
+  tools: [Python]
+  description: Wrote a replica of Super Mario Bros. in python.
+  image: /assets/images/projects/mario.png
+  external_url: https://github.com/AdityaMorolia/mario_using_python
+
+- name: C-- Compiler
+  tools: [C++, Antlr, Java]
+  description: Compiler for a toy language C-- inspired by C and Decaf. Includes a parser made using Antlr, custom syntax tree contruction using Visitor Design Pattern, and LLVM IR generation.
+  image: /assets/images/projects/compiler.png
+  external_url: https://github.com/AdityaMorolia/C--Compiler
+
+- name: QML for HEP
+  tools: [pytorch, quantum-machine-learning, hep]
+  description: Exploratory work on using quantum machine learning for high energy physics. 
+  image: /assets/images/projects/face.png
+  external_url: https://github.com/AdityaMorolia/qml-for-hep
+
+
