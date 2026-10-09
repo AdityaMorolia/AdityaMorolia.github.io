@@ -73,6 +73,7 @@ weight: 1
         <br/>
         <span> {% if item.where != blank %} {% for venue in item.where %} <i class="fa fa-book"></i> {{ venue.name }} &emsp; {% endfor %} {% endif %}
         {% if item.arxiv != blank %}<i class="fa fa-book"></i> <a href="{{ item.arxiv }}" target="_blank"> arXiv </a> &emsp; {% endif %}
+        {% if item.eprint != blank %}<i class="fa fa-book"></i> <a href="{{ item.eprint }}" target="_blank"> ePrint </a> &emsp; {% endif %}
         {% if item.slides != blank %}<i class="fa fa-display"></i> <a href="{{ item.slides }}" target="_blank"> slides </a> {% endif %}</span>
         {% if item.bibtex != blank %}
         {% assign bibtex_id = item.id | default: forloop.index | slugify %}
