@@ -123,4 +123,5 @@ weight: 1
 
 ### Academic Service
 
-- 2025: Sub-reviewer for AQIS 2025; AsiaCrypt 2025; FSTTCS 2025; TCC 2025; Eurocrypt 2025.
+- 2026: Sub-reviewer for SOSA 2026; PKC 2026; EuroCrypt 2026.
+- 2025: Sub-reviewer for AQIS 2025; AsiaCrypt 2025; FSTTCS 2025; TCC 2025; EuroCrypt 2025.
