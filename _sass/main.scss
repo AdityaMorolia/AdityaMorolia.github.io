@@ -82,6 +82,21 @@ body {
   text-align: center;
 }
 
+.publication-details {
+  position: relative;
+  padding-top: 1.5em;
+
+  > details > summary {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  > details + details > summary {
+    left: 5.5em;
+  }
+}
+
 /* Mobile layout */
 @media (max-width: 767px) {
   .profile-figure {

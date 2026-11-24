@@ -75,6 +75,7 @@ weight: 1
         {% if item.arxiv != blank %}<i class="fa fa-book"></i> <a href="{{ item.arxiv }}" target="_blank"> arXiv </a> &emsp; {% endif %}
         {% if item.eprint != blank %}<i class="fa fa-book"></i> <a href="{{ item.eprint }}" target="_blank"> ePrint </a> &emsp; {% endif %}
         {% if item.slides != blank %}<i class="fa fa-display"></i> <a href="{{ item.slides }}" target="_blank"> slides </a> {% endif %}</span>
+        <div class="publication-details">
         {% if item.bibtex != blank %}
         {% assign bibtex_id = item.id | default: forloop.index | slugify %}
         <details><summary>BibTeX</summary>
@@ -82,7 +83,8 @@ weight: 1
         <pre id="bibtex-{{ bibtex_id }}" style="white-space: pre-wrap;">{{ item.bibtex | strip | escape }}</pre>
         </details>
         {% endif %} 
-        <details><summary>Abstract</summary> {{ item.abstract }} </details></small>
+        <details><summary>Abstract</summary> {{ item.abstract }} </details>
+        </div></small>
         {% endfor %}
     </ul>
 </div>
