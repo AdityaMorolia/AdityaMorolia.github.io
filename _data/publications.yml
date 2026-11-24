@@ -11,6 +11,26 @@
 #   arxiv:
 #   year:
 
+- id: AM26
+  title: "How to Round Spiky Balls into Submission: And Faster Algorithms For The Closest Vector Problem"
+  abstract: >
+    We give the first single-exponential time algorithm for the exact Closest Vector Problem (CVP) in the $\ell_p$ norm for $1 < p < 2$. Prior to this, such an algorithm was only known for the Euclidean norm, i.e., $\ell_2$, or needed an additional promise that the target is close to the lattice. Using similar techniques, we also find a shortest non-zero vector in the $\ell_p$ norm in time $2^{O(n)}$ for every $p \in [1, 2)$ with a constant in the exponent that doesn't depend on $p$, and that improves state of the art algorithms for the shortest vector problem in the $\ell_p$ norm.
+    The problem of finding a single exponential time algorithm for CVP in the $\ell_p$ norm for $p \neq 2$ has been open since 2010, when Micciancio and Voulgaris resolved it for the Euclidean case.
+    One of our key ideas is that for $0 < p \leq 2$, the function $z \mapsto e^{-|z|^p}$ is a mixture of Gaussians, so the $\ell_p$ discrete Gaussian distribution on a lattice shift is a mixture of Euclidean discrete Gaussians with random diagonal widths. Our algorithms use this to reduce the $\ell_p$ problem to the Euclidean CVP on a randomly scaled lattice.
+  coauthors:
+    - name: Divesh Aggarwal
+      url: https://sites.google.com/site/diveshhomepage/
+  arxiv:
+  year: 2026
+  bibtex: >
+    @misc{AM26,
+      author = {Divesh Aggarwal and Aditya Morolia},
+      title = {How to Round Spiky Balls into Submission: And Faster Algorithms For The Closest Vector Problem},
+      year = {2026}
+    }
+  slides: ../assets/slides/cvp.pdf
+
+
 - id: AMS26
   title: "Faster Provable Lattice Sieving with Spherical Codes"
   abstract: >
@@ -32,6 +52,7 @@
       year = {2026},
       url = {https://eprint.iacr.org/2026/2388}
     }
+  slides: ../assets/slides/svp_sieving.pdf
 
 
 - id: AGM25
