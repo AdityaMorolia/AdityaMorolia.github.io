@@ -84,6 +84,7 @@ weight: 1
         </details>
         {% endif %} 
         <details><summary>Abstract</summary> {{ item.abstract }} </details>
+        {% if item.pdf != blank %}<a class="publication-pdf" href="{{ item.pdf | relative_url }}" target="_blank" rel="noopener">PDF</a>{% endif %}
         </div></small>
         {% endfor %}
     </ul>

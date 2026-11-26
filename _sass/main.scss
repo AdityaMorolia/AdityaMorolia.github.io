@@ -95,6 +95,12 @@ body {
   > details + details > summary {
     left: 5.5em;
   }
+
+  > .publication-pdf {
+    position: absolute;
+    top: 0;
+    left: 12em;
+  }
 }
 
 /* Mobile layout */

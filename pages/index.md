@@ -22,6 +22,8 @@ I did a joint bachelors and masters in CS from IIIT Hyderabad, affiliated with [
   </div>
 </div>
 
+<span style="color:#cc0000">NEWS: </span> Our work [How to Round Spiky Balls into Submission](https://arxiv.org/abs/2611.32605) is up on arXiv.
+
 <span style="color:#cc0000">NEWS: </span> Our work [Faster Provable Lattice Sieving with Spherical Codes](https://eprint.iacr.org/2026/2388) is up on eprint.
 
 <span style="color:#cc0000">NEWS: </span> Our work [Mind the Gap? Not for SVP Hardness under ETH!](https://arxiv.org/abs/2504.02695) has been accepted to appear at ICALP 2026. 

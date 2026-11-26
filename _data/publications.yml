@@ -21,6 +21,7 @@
     - name: Divesh Aggarwal
       url: https://sites.google.com/site/diveshhomepage/
   arxiv: https://arxiv.org/abs/2611.32605
+  pdf: /assets/Papers/cvp_ellp.pdf
   year: 2026
   bibtex: >
     @misc{AM26,
@@ -48,6 +49,7 @@
     - name: Noah Stephens-Davidowitz
       url: https://www.noahsd.com/
   eprint: https://eprint.iacr.org/2026/2388
+  pdf: /assets/Papers/spherical_codes_sieving.pdf
   year: 2026
   bibtex: >
     @misc{cryptoeprint:2026/2388,
@@ -78,6 +80,7 @@
   where:
     - name: ICALP 2026
   arxiv: https://arxiv.org/abs/2504.02695
+  pdf: /assets/Papers/svp_eth_hardness.pdf
   year: 2025
   bibtex: >
     @misc{AGMZ25,
@@ -106,6 +109,7 @@
     - name: QCTIP 2025
     - name: PQCrypto 2026
   arxiv: "https://arxiv.org/abs/2410.13759"
+  pdf: /assets/Papers/quantum_sieving.pdf
   year: 2024
   bibtex: > 
     @InProceedings{DGLM24,
@@ -141,6 +145,7 @@
     - name: Quantum Journal, April 2023
       doi: https://doi.org/10.22331/q-2023-04-27-988
   arxiv: "https://arxiv.org/abs/2206.13143v3"
+  pdf: /assets/Papers/quantum_regularized_least_squares.pdf
   year: 2022
   bibtex: >
     @article{CMP23,
