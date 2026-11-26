@@ -84,7 +84,7 @@ weight: 1
         </details>
         {% endif %} 
         <details><summary>Abstract</summary> {{ item.abstract }} </details>
-        {% if item.pdf != blank %}<a class="publication-pdf" href="{{ item.pdf | relative_url }}" target="_blank" rel="noopener">PDF</a>{% endif %}
+        {% if item.pdf != blank %}<a class="publication-pdf" style="position: absolute; top: 0; left: 12em;" href="{{ item.pdf | relative_url }}" target="_blank" rel="noopener">PDF</a>{% endif %}
         </div></small>
         {% endfor %}
     </ul>
@@ -115,7 +115,7 @@ weight: 1
         <li> <span style="color: black;"> {{ item.title }} </span></li>
         <small>
         <span> <i class="fa-solid fa-location-dot"></i> {{ item.where }} &emsp; <i class="fa fa-clock"></i> {{ item.date }} {% if item.slides != blank %}&emsp; <i class="fa fa-display"></i> <a href="{{ item.slides }}" target="_blank"> slides </a>{% endif %}</span>
-        <details><summary>Abstract</summary> {{ item.abstract }} </details></small>
+        {% if item.abstract != blank %}<details><summary>Abstract</summary> {{ item.abstract }} </details>{% endif %}</small>
         {% endfor %}
     </ul>
 </div>

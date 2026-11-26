@@ -4,6 +4,24 @@
 #   location: 
 #   abstract:
 
+- title: "Faster Provable Lattice Sieving with Spherical Codes"
+  date: November 2026
+  where: "Expanding Frontiers of Cryptography: Assumptions & Applications, IIT Madras"
+  slides: ../assets/slides/svp_sieving.pdf
+
+- title: "Learning Quantum Hamiltonians from Ground States"
+  date: October 2026
+  where: School of Computing, NUS
+
+- title: "Quantum Monte Carlo Methods, Simplified"
+  date: October 2026
+  where: School of Computing, NUS
+
+- title: 'Is there a Johnson-Lindenstrauss lemma for the $\ell_1$ metric?'
+  date: October 2026
+  where: NUS Group Seminar
+
+
 - title: "Pseudorandom Error-Correcting Codes"
   date: 13 May 2026, 1:30 PM
   where: Divesh's Group Seminars
