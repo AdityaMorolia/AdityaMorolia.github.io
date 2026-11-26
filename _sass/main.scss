@@ -6,7 +6,6 @@
         "autumn",
         "blog",
         "footer",
-        "landing",
         "navbar",
         "projects",
         "timeline";
@@ -14,6 +13,7 @@
 
 // Set root font size for responsive scaling
 :root {
+  --site-blue: #{$site-blue};
   font-size: 16px; // Default for mobile
 
   @media (min-width: 1200px) {
@@ -24,19 +24,36 @@
   }
 }
 
-/* Default link color */
-a {
-    color: #004088;
-    text-decoration: none; /* Optional: removes underline */
-  }
-  
-/* Link color on hover */
-a:hover {
-  color: #004088; 
-  text-decoration: none; /* Optional: removes underline */
+a:focus-visible, button:focus-visible, summary:focus-visible {
+  outline: 2px solid $site-blue;
+  outline-offset: 2px;
+}
+
+a, a:hover {
+  color: $site-blue;
+  text-decoration: none;
+}
+
+.site-tag { font-weight: 400; }
+
+.site-tag, .site-button {
+  color: $site-blue;
+  border: 1px solid currentColor;
+}
+
+.btn.site-button:hover {
+  background-color: $site-blue;
+  border-color: $site-blue;
+  color: white;
+}
+
+.site-button:focus, .search-box:focus {
+  border-color: $site-blue;
+  box-shadow: 0 0 0 .2rem rgba($site-blue, .25);
 }
 
 body {
+    background-color: #fcfbf8;
     font-family: 'Segoe UI Emoji', 'Segoe UI Symbol', 'Segoe UI',  Roboto, 'Helvetica Neue', Arial, sans-serif;
   }
 

@@ -9,7 +9,7 @@ scholar:
 behance:
   url   : https://www.behance.net/
   icon  : fab fa-behance
-  color : 1769ff
+  color : site-blue
 
 dribbble:
   url   : https://dribbble.com/
@@ -24,7 +24,7 @@ email:
 facebook:
   url   : https://www.facebook.com/
   icon  : fab fa-facebook
-  color : 3b5998
+  color : site-blue
 
 github:
   url   : https://www.github.com/
@@ -39,17 +39,17 @@ gitlab:
 instagram:
   url   : https://www.instagram.com/
   icon  : fab fa-instagram
-  color : 405de6
+  color : site-blue
   
 kaggle:
   url   : https://www.kaggle.com/
   icon  : fab fa-kaggle
-  color : 20beff
+  color : site-blue
 
 linkedin:
   url   : https://www.linkedin.com/in/
   icon  : fab fa-linkedin-in
-  color : 007bb5
+  color : site-blue
 
 medium:
   url   : https://medium.com/@
@@ -74,7 +74,7 @@ stackoverflow:
 tumblr:
   url   : https://
   icon  : fab fa-tumblr
-  color : 35465c
+  color : site-blue
 
 twitch:
   url   : https://www.twitch.tv/
@@ -84,7 +84,7 @@ twitch:
 twitter:
   url   : https://www.twitter.com/
   icon  : fab fa-twitter
-  color : 1da1f2
+  color : site-blue
 
 vimeo:
   url   : https://www.vimeo.com/

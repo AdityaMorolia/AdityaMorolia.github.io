@@ -5,7 +5,17 @@ permalink: /research/
 weight: 1
 ---
 
-### Publications
+<nav class="navbar navbar-expand navbar-light p-0 mb-3" aria-label="Research sections">
+  <div class="navbar-nav flex-wrap">
+    <a class="nav-item nav-link" href="#publications">Papers</a>
+    <a class="nav-item nav-link" href="#academic-writings">Notes</a>
+    <a class="nav-item nav-link" href="#talks">Talks</a>
+    <a class="nav-item nav-link" href="#academic-service">Service</a>
+  </div>
+</nav>
+
+### Papers
+{: #publications}
 
 {% assign pubs = site.data.publications %}
 
@@ -92,7 +102,8 @@ weight: 1
 
 ---
 
-### Academic Writings
+### Notes
+{: #academic-writings}
 
 - Notes on [lattices](../assets/documents/Lattice_Notes.pdf) I helped write. This was when I was a teaching assistant for advanced algorithms (lattice algorithms) course taught by [Divesh](https://sites.google.com/site/diveshhomepage/). You probably also wanna look at Oded Regev's [notes](https://cims.nyu.edu/~regev/teaching/lattices_fall_2009/).
 - [Notes](../assets/documents/Pseudoentanglement.pdf) on Quantum Pseudoentanglement and pseudorandom quantum states I wrote with my friends from CQT.
@@ -126,5 +137,6 @@ weight: 1
 
 ### Academic Service
 
-- 2026: Sub-reviewer for SOSA 2026; PKC 2026; AsiaCrypt 2026; EuroCrypt 2026.
+- 2027: Sub-reviewer for STOC 2027; EuroCrypt 2027; PKC 2027.
+- 2026: Sub-reviewer for SOSA 2026; AsiaCrypt 2026; EuroCrypt 2026.
 - 2025: Sub-reviewer for AQIS 2025; AsiaCrypt 2025; FSTTCS 2025; TCC 2025; EuroCrypt 2025.

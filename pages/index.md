@@ -22,20 +22,18 @@ I did a joint bachelors and masters in CS from IIIT Hyderabad, affiliated with [
   </div>
 </div>
 
-<span style="color:#cc0000">NEWS: </span> Our work [How to Round Spiky Balls into Submission](https://arxiv.org/abs/2611.32605) is up on arXiv.
+### News
 
-<span style="color:#cc0000">NEWS: </span> Our work [Faster Provable Lattice Sieving with Spherical Codes](https://eprint.iacr.org/2026/2388) is up on eprint.
+- Nov 2026 · [How to Round Spiky Balls into Submission](https://arxiv.org/abs/2611.32605) is up on arXiv.
+- Oct 2026 · [Faster Provable Lattice Sieving with Spherical Codes](https://eprint.iacr.org/2026/2388) is up on ePrint.
+- Apr 2026 · [Mind the Gap? Not for SVP Hardness under ETH!](https://arxiv.org/abs/2504.02695) was accepted to ICALP 2026.
+- Jan 2026 · [On the practicality of quantum sieving algorithms for the shortest vector problem](https://arxiv.org/abs/2410.13759) was accepted for a talk at PQCrypto 2026.
 
-<span style="color:#cc0000">NEWS: </span> Our work [Mind the Gap? Not for SVP Hardness under ETH!](https://arxiv.org/abs/2504.02695) has been accepted to appear at ICALP 2026. 
-
-<span style="color:#cc0000">NEWS: </span> Our work [On the practicality of quantum sieving algorithms for the shortest vector problem](https://arxiv.org/abs/2410.13759) has been accepted for a talk at PQCrypto 2026.
-
-
-My CV (Updated Mar 2026) **[PDF](../assets/documents/cv.pdf)** 
+[Download my CV (PDF)]({{ site.resume_path | relative_url }}) (Updated Oct 2026)
 
 ### Personal
 
 I love to lift weights, jog and practice various Martial Arts.
 In my free time I like to read and watch Sci-Fi. 
-I love to code and read about large software systems. You can find some of the projects I've worked on [here](/projects/).
+I love to code and read about large software systems. You can find my [software projects]({{ '/software/' | relative_url }}).
 I identify as a chaotic good druid <i class="fa fa-hand-peace"></i>.

@@ -2,13 +2,11 @@
 
 <div class="input-group mt-5 px-3">
   <input id="search-input" type="text" class="form-control search-box" placeholder="Search posts..">
-  <div class="input-group-append">
-    <span class="input-group-text border border-primary bg-primary text-white">
-      <i class="fas fa-search"></i>
-    </span>
-  </div>
-  <button class="btn btn-outline-primary ml-1" onclick="location.href = '{{ '/blog/tags' | relative_url }}';">
-    <i class="fas fa-tags"></i>
+  <button type="button" class="btn site-button ml-1" aria-label="Search posts" onclick="document.getElementById('search-input').focus()">
+    <i class="fas fa-fw fa-search" aria-hidden="true"></i>
+  </button>
+  <button type="button" class="btn site-button ml-1" aria-label="Browse tags" onclick="location.href = '{{ '/blog/tags' | relative_url }}';">
+    <i class="fas fa-fw fa-tags" aria-hidden="true"></i>
   </button>
 </div>
 <ul class="px-3" id="results-container"></ul>
