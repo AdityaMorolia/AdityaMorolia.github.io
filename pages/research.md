@@ -72,8 +72,8 @@ weight: 1
         {% endfor %}
         <br/>
         <span> {% if item.where != blank %} {% for venue in item.where %} <i class="fa fa-book"></i> {{ venue.name }} &emsp; {% endfor %} {% endif %}
-        {% if item.arxiv != blank %}<i class="fa fa-book"></i> <a href="{{ item.arxiv }}" target="_blank"> arXiv </a> &emsp; {% endif %}
-        {% if item.eprint != blank %}<i class="fa fa-book"></i> <a href="{{ item.eprint }}" target="_blank"> ePrint </a> &emsp; {% endif %}
+        {% if item.arxiv != blank %}<a href="{{ item.arxiv }}" target="_blank"><i class="fa-solid fa-scroll" aria-hidden="true"></i> arXiv</a> &emsp; {% endif %}
+        {% if item.eprint != blank %}<a href="{{ item.eprint }}" target="_blank"><i class="fa-solid fa-fingerprint" aria-hidden="true"></i> ePrint</a> &emsp; {% endif %}
         {% if item.slides != blank %}<i class="fa fa-display"></i> <a href="{{ item.slides }}" target="_blank"> slides </a> {% endif %}</span>
         <div class="publication-details">
         {% if item.bibtex != blank %}
@@ -84,7 +84,7 @@ weight: 1
         </details>
         {% endif %} 
         <details><summary>Abstract</summary> {{ item.abstract }} </details>
-        {% if item.pdf != blank %}<a class="publication-pdf" style="position: absolute; top: 0; left: 12em;" href="{{ item.pdf | relative_url }}" target="_blank" rel="noopener">PDF</a>{% endif %}
+        {% if item.pdf != blank %}<a class="publication-pdf" style="position: absolute; top: 0; left: 12em; white-space: nowrap;" href="{{ item.pdf | relative_url }}" target="_blank" rel="noopener"><i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i> PDF</a>{% endif %}
         </div></small>
         {% endfor %}
     </ul>
