@@ -24,6 +24,7 @@ I did a joint bachelors and masters in CS from IIIT Hyderabad, affiliated with [
 
 ### News
 
+- Nov 2027: I am invited to the Dagstuhl Seminar [27441](https://www.dagstuhl.de/de/seminars/seminar-calendar/seminar-details/27441) on Quantum Cryptanalysis. Say hi if you are visiting! 
 - Nov 2026 · [How to Round Spiky Balls into Submission](https://arxiv.org/abs/2611.32605) is up on arXiv.
 - Oct 2026 · [Faster Provable Lattice Sieving with Spherical Codes](https://eprint.iacr.org/2026/2388) is up on ePrint.
 - Apr 2026 · [Mind the Gap? Not for SVP Hardness under ETH!](https://arxiv.org/abs/2504.02695) was accepted to ICALP 2026.
